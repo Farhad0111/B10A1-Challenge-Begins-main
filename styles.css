@@ -1,77 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-body {
+
+
+*{
     font-family: "Azeret Mono", monospace;
 }
 
-.hero {
-    background-image: url('assets/Hero-bg.png');
-    padding: 100px 0;
-    text-align: center;
-    height: 200px;
-    width: 1400px;
-}
-
-.header-content {
+nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 50px 150px;
 }
 
-.download-resume {
-    background-color: white;
-    color: #333;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid black;
-}
 
-.contact-button {
-    background-color: rgb(13, 19, 33);
-    color: white;
-    width: 145px;
-    font-size: 12px;
-    height: 10px;
-    display: flex;
+
+.btn{
+    padding: 21px 24px;
     justify-content: center;
     align-items: center;
-    padding: 21px 24px;
-    margin: 32px auto; /* Center the button horizontally */
     border-radius: 8px;
-    text-decoration: none; /* Ensure the text has no underline */
+    background: #0D1321;
+    color: rgba(255, 255, 255, 1);
+    border: none;
 }
-
-.hero-content {
+.Banner_text2{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #0D1321;;
+}
+.Banner_content{
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    font-size:28px;
+      
+}
+.background {
+    background-image:url("assets/Hero-bg.png");
+    color: lightgray 50%;
+    background-repeat: no-repeat;
+    height: 652px;
+    align-items: center;
+    
+  }
+  .image{
+    
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center the content vertically */
-    align-items: center; /* Center the content horizontally */
-    color: rgb(13, 19, 33);
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    font-size: 22px;
-    font-weight: 350;
-    line-height: 37px;
-    text-align: center; /* Center the text */
+    justify-content: center;
+    padding: 25px 0;
 }
-
-.hero-content p {
-    color: rgb(13, 19, 33);
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
-}
-
-.hero-image {
-    position: absolute;
-    top: -100px; /* Adjust this value to move the image higher or lower */
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 100px;
+  
+nav >button{
+    border-radius: 8px;
+    border-color: #0D1321;
+    padding: 17px 24px;
+    text-align: center;
+    font-weight: 500;
+    /*color: #0D1321;*/
+    gap: 10px;
+    background-color: white;
 }
