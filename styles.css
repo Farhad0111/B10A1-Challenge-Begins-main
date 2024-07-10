@@ -60,3 +60,89 @@ nav >button{
     gap: 10px;
     background-color: white;
 }
+
+
+
+main {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.container{
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    margin-top: 74px;
+    padding-bottom: 20px;
+}
+
+
+.container-title > h1{
+    font-size:32px ;
+    font-weight: 800;
+    text-align: center;
+    
+}
+.container-title >p{
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 48px;
+    padding: 0 97px;
+    opacity: 0.7;
+}
+
+.container_text{
+    gap:16px;
+}
+.container_text >button{
+    background-color: white;
+    color: #0D1321;?
+    text-align: center;
+    font-size: 15px;
+   font-style: normal;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-top: 32px;
+    border-radius: 8px;
+    border-color: #0D1321;
+}
+
+.container_text >p{
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.container1 ,.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    gap: 20px;
+    padding: 48px 97px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.container2{
+    display: flex;
+     justify-content: space-between;
+     gap: 30px;
+    margin: 48px;
+    padding: 48px 97px;
+    border-radius: 16px;
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.container_text >h1{
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+}
+
+
