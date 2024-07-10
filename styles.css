@@ -99,7 +99,7 @@ main {
 }
 .container_text >button{
     background-color: white;
-    color: #0D1321;?
+    color: #0D1321;
     text-align: center;
     font-size: 15px;
    font-style: normal;
@@ -145,4 +145,134 @@ font-style: normal;
 font-weight: 700;
 }
 
+/*Insoiration*/
+.Inspiration {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center child elements horizontally */
+  }
+  
+  .Inspiration1 p {
+    font-size: 8px; 
+    color: rgb(13, 19, 33);
+  }
+  
+  .Inspiration2 {
+    color: rgb(13, 19, 33);
+    font-size: 1px;
+  }
+  
+  .Inspiration1 {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 90px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    width: fit-content;
+    height: 340px; 
+    width: 580px; 
+}
+ 
+/*current Target*/
+.target1 p{
+    color: rgb(13, 19, 33);
+}
+.target_container1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target_container2{
+    border-radius: 12px;
+    background: rgba(0, 76, 232, 0.05);
+
+/*    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);*/
+    padding: 40px;
+}
+.target_container3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    /*background: rgba(255, 76, 30, 0.05);
+    padding: 40px;*/
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+
+.target_container1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+  /* Inspiration section */
+/* Inspiration section */
+.target2 {
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .Inspiration1 h3 {
+    font-size: 24px; 
+    margin-bottom: 16px; 
+  }
+  
+  .target2-p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: rgb(13, 19, 33);
+  }
+  
+  .new-courses {
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 40px;
+    gap: 24px;
+    margin-bottom: 24px; 
+  }
+  
+  .new-courses h3 {
+    text-align: left;
+    font-size: 20px; 
+    margin-bottom: 12px; 
+  }
+  
+  .new-courses p {
+    text-align: left;
+    font-size: 16px; 
+    line-height: 1.5; 
+  }
+  
+  .new-courses a {
+    font-size: 14px; 
+    color: black; 
+    text-align: left; 
+    display: block; 
+    margin-top: 10px; 
+  }
+  
 
